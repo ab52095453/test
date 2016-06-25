@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wide">
+        <!--顶部-->
+        <div class="shortcut">
+            <div class="layout clearfix">
+                <div class="s-sub">
+                    <ul>
+                        <li><a href="#">华为官网</a></li>
+                        <li><a href="#">荣耀官网</a></li>
+                        <li>
+                            <div class="s-dropdown">
+                                <div class="h">
+                                    <a href="#">软件应用</a>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="b">
+                                    <p><a href="#">EMUI</a></p>
+                                    <p><a href="#">应用市场</a></p>
+                                    <p><a href="#">云服务</a></p>
+                                    <p><a href="#">开发者联盟</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">花粉俱乐部</a></li>
+                        <li><a href="#">Select Region</a></li>
+                    </ul>
+                </div>
+                <div class="s-main">
+                    <ul>
+                        <li class="login"><a href="#">登陆&nbsp;&nbsp;&nbsp;注册</a></li>
+                        <li><a href="#" >我的订单</a></li>
+                        <li><a href="#">V码(优购码)</a></li>
+                        <li><a href="#">手机版</a></li>
+                        <li>
+                            <div class="s-dropdown">
+                                <div class="h">
+                                    <a href="javascript:;">网站导航</a>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="b">
+                                    <p><a href="#">帮助中心</a></p>
+                                    <p><a href="#">PC软件</a></p>
+                                    <p><a href="#">数字音乐</a></p>
+                                    <p><a href="#">爱旅</a></p>
+                                    <p><a href="#">华为网盘</a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--logo部分-->
+        <div class="header">
+            <div class="logo container clearfix">
+                <div class="logo_l">
+                    <a href="#" title="Vmall.com - 华为商城"><img src="http://res.vmallres.com/images/echannel/newLogo.png" alt="Vmall.com - 华为商城"></a>
+                </div>
+                <div class="searchBar">
+                    <form method="get">
+                        <input type="text" class="text" maxlength="100" placeholder="v8"  style="z-index: 1;">
+                        <input type="submit" class="button" value="搜索">
+                    </form>
+                    <div class="searchBar-key">
+                        <b>热门搜索：</b>
+                        <a href="#">5C</a>
+                        <a href="#">HUAWEI P9</a>
+                        <a href="#">5X</a>
+                        <a href="#">荣耀7</a>
+                        <a href="#">618大促</a>
+                    </div>
+                </div>
+                <div class="header-toolbar">
+                    <div class="header-toolbar-item">
+                        <div class="i-mall">
+                            <div class="h">
+                                <a href="#">我的商城</a>
+                                <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="b">
+                                <div class="i-mall-prompt">
+                                    <p>你好，请&nbsp;&nbsp;<a href="#">登录</a> | <a href="#">注册</a></p>
+                                </div>
+                                <div class="i-mall-uc " id="cart_login_info">
+                                    <ul>
+                                        <li><a href="#">我的订单</a></li>
+                                        <li><a href="#">待支付</a></li>
+                                        <li><a href="#">待评论</a></li>
+                                        <li><a href="#">优惠券</a></li>
+                                        <li><a href="#">站内信</a></li>
+                                    </ul>
+                                </div>
+                                <div class="i-mall-event ">
+                                    <p><a href="#"><img src="http://res.vmallres.com/pimages//sale/2016-01/20160127095348354.jpg" alt="特权频道"></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-toolbar-item">
+                        <div class="car">
+                            <a href="#">我的购物车</a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-qrcode">
+                    <ul id="qrcode">
+                        <li>
+                            <a><img src="http://res.vmallres.com/appdownload/home/qrcode_vmall_app01.png?20160114" alt="华为商城官方客户端"></a>
+                            <p>专享荣耀专场</p>
+                        </li>
+                        <li class="qrcode-f">
+                            <a><img src="http://res.vmallres.com/appdownload/home/qrcode_vmall_wechat01.jpg?20160114" alt="华为商城官方微信"></a>
+                            <p>扫描微信关注</p>
+                        </li>
+                    </ul>
+                    <div class="ec-slider-nav" id="qrcodeBtn">
+                        <span class="ons"></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--导航部分-->
+        <div class="nav-main">
+            <div class="container">
+                <div class="category">
+                    <div class="h">
+                        <h2>全部商品</h2>
+                    </div>
+                    <div class="b">
+                        <ul class="category-list">
+                            <li class="categoryli">
+                            <div class="category-info">
+                                <h3><a href="#">手机</a></h3>
+                                <a href="#">荣耀</a>
+                                <a href="#">荣耀畅玩</a>
+                                <a href="#">华为 Mate/P系列</a>
+                            </div>
+                            <div class="category-panels">
+                                <ul>
+                                    <li><a href="#">荣耀</a></li>
+                                    <li><a href="#">荣耀畅玩</a></li>
+                                    <li><a href="#">华为 Mate/P系列</a></li>
+                                    <li><a href="#">华为 G/Y系列</a></li>
+                                    <li><a href="#">运营商合约</a></li>
+                                </ul>
+                            </div>
+                            </li>
+                            <li class="categoryli">
+                                <div class="category-info">
+                                    <h3><a href="#">平板&穿戴</a></h3>
+                                    <a href="#">平板电脑</a>
+                                    <a href="#">手环</a>
+                                    <a href="#">手表</a>
+                                </div>
+                                <div class="category-panels">
+                                    <ul>
+                                        <li><a href="#">平板电脑</a></li>
+                                        <li><a href="#">手环</a></li>
+                                        <li><a href="#">手表</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="categoryli">
+                                <div class="category-info">
+                                    <h3><a href="#">笔记本电脑</a></h3>
+                                    <a href="#">MateBook</a>
+                                    <a href="#">拓展坞</a>
+                                    <a href="#">触控笔</a>
+                                </div>
+                                <div class="category-panels">
+                                    <ul>
+                                        <li><a href="#">MateBook</a></li>
+                                        <li><a href="#">拓展坞</a></li>
+                                        <li><a href="#">触控笔</a></li>
+                                        <li><a href="#">二合一键盘</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="categoryli">
+                                <div class="category-info">
+                                    <h3><a href="#">智能家居</a></h3>
+                                    <a href="#">电力猫</a>
+                                    <a href="#">路由器</a>
+                                    <a href="#">电视盒子</a>
+                                </div>
+                                <div class="category-panels">
+                                    <ul>
+                                        <li><a href="#">电力猫</a></li>
+                                        <li><a href="#">路由器</a></li>
+                                        <li><a href="#">电视盒子</a></li>
+                                        <li><a href="#">随行Wifi</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="categoryli">
+                                <div class="category-info">
+                                    <h3><a href="#">专属配件</a></h3>
+                                    <a href="#">保护壳</a>
+                                    <a href="#">保护套</a>
+                                    <a href="#">贴膜</a>
+                                </div>
+                                <div class="category-panels">
+                                    <ul>
+                                        <li><a href="#">保护套</a></li>
+                                        <li><a href="#">路由器</a></li>
+                                        <li><a href="#">电视盒子</a></li>
+                                        <li><a href="#">随行Wifi</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="categoryli">
+                                <div class="category-info">
+                                    <h3><a href="#">通用配件</a></h3>
+                                    <a href="#">耳机</a>
+                                    <a href="#">音响</a>
+                                    <a href="#">移动电源</a>
+                                </div>
+                                <div class="category-panels">
+                                    <ul>
+                                        <li><a href="#">音响</a></li>
+                                        <li><a href="#">路由器</a></li>
+                                        <li><a href="#">电视盒子</a></li>
+                                        <li><a href="#">随行Wifi</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="categoryli">
+                                <div class="category-info">
+                                    <h3><a href="#">应用市场</a></h3>
+                                    <a href="#">手机游戏</a>
+                                    <a href="#">手机市场</a>
+                                </div>
+                                <div class="category-panels">
+                                    <ul>
+                                        <li><a href="#">手机游戏</a></li>
+                                        <li><a href="#">路由器</a></li>
+                                        <li><a href="#">电视盒子</a></li>
+                                        <li><a href="#">随行Wifi</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul class="clearfix">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">华为专区</a></li>
+                        <li><a href="#">荣耀专区</a></li>
+                        <li><a href="#">荣耀畅玩5A</a></li>
+                        <li><a href="#">荣耀618</a></li>
+                        <li><a href="#">P9</a></li>
+                        <li><a href="#">配件专区</a></li>
+                        <li><a href="#">精彩频道</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--轮播部分-->
+        <div class="banner" id="slider">
+            <ul id="list" style="left: -1920px">
+                <li><img src="http://res.vmallres.com/pimages//sale/2016-06/20160612155956366.jpg" alt="5"></li>
+                <li><img src="http://res.vmallres.com/pimages//sale/2016-06/20160605225901284.jpg" alt="1"></li>
+                <li><img src="http://res.vmallres.com/pimages//sale/2016-06/20160607221114104.jpg" alt="2"></li>
+                <li><img src="http://res.vmallres.com/pimages//sale/2016-06/20160607093208586.jpg" alt="3"></li>
+                <li><img src="http://res.vmallres.com/pimages//sale/2016-06/20160607170412643.jpg" alt="4"></li>
+                <li><img src="http://res.vmallres.com/pimages//sale/2016-06/20160612155956366.jpg" alt="5"></li>
+                <li><img src="http://res.vmallres.com/pimages//sale/2016-06/20160605225901284.jpg" alt="1"></li>
+            </ul>
+            <div id="buttons">
+                <span index="1" class="on"></span>
+                <span index="2"></span>
+                <span index="3"></span>
+                <span index="4"></span>
+                <span index="5"></span>
+            </div>
+            <a class="arrow" href="javascript:;" id="prev">&lt;</a>
+            <a class="arrow" href="javascript:;" id="next">&gt;</a>
+        </div>
+        <!--小图片展示商品部分-->
+        <div class="pic-shop container clearfix">
+            <div class="pic-l">
+                <ul class="clearfix">
+                    <li>
+                        <div class="pro-info clearfix">
+                            <div class="p-img"><a href="#"><img src="http://res.vmallres.com/pimages//frontLocation/content/35/1465718353915.png" alt="荣耀畅玩5A"> </a></div>
+                            <div class="p-name"><a href="#">荣耀畅玩5A</a></div>
+                            <div class="p-shining">
+                                <div class="p-slogan">6月13~16日10:08订金预约</div>
+                                <div class="p-promotions">火爆预约中</div>
+                            </div>
+                            <div class="p-price">
+                                <em>¥</em>
+                                <span>699</span>
+                            </div>
+                            <div class="p-button"><a href="#">立即抢购</a> </div>
+                            <i><img src="http://res.vmallres.com/pimages//tag/14/1446369334983.png" alt=""></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-info pro-info-b clearfix">
+                            <div class="p-img"><a href="#"><img src="http://res.vmallres.com/pimages//frontLocation/content/35/1465718353915.png" alt="荣耀畅玩5A"> </a></div>
+                            <div class="p-name"><a href="#">荣耀畅玩5A</a></div>
+                            <div class="p-shining">
+                                <div class="p-slogan">6月13~16日10:08订金预约</div>
+                                <div class="p-promotions">火爆预约中</div>
+                            </div>
+                            <div class="p-price">
+                                <em>¥</em>
+                                <span>699</span>
+                            </div>
+                            <div class="p-button"><a href="#">立即抢购</a> </div>
+                            <i><img src="http://res.vmallres.com/pimages//tag/14/1446369334983.png" alt=""></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-info pro-info-y clearfix">
+                            <div class="p-img"><a href="#"><img src="http://res.vmallres.com/pimages//frontLocation/content/35/1465718353915.png" alt="荣耀畅玩5A"> </a></div>
+                            <div class="p-name"><a href="#">荣耀畅玩5A</a></div>
+                            <div class="p-shining">
+                                <div class="p-slogan">6月13~16日10:08订金预约</div>
+                                <div class="p-promotions">火爆预约中</div>
+                            </div>
+                            <div class="p-price">
+                                <em>¥</em>
+                                <span>699</span>
+                            </div>
+                            <div class="p-button"><a href="#">立即抢购</a> </div>
+                            <i><img src="http://res.vmallres.com/pimages//tag/14/1446369334983.png" alt=""></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-info pro-info-p clearfix">
+                            <div class="p-img"><a href="#"><img src="http://res.vmallres.com/pimages//frontLocation/content/35/1465718353915.png" alt="荣耀畅玩5A"> </a></div>
+                            <div class="p-name"><a href="#">荣耀畅玩5A</a></div>
+                            <div class="p-shining">
+                                <div class="p-slogan">6月13~16日10:08订金预约</div>
+                                <div class="p-promotions">火爆预约中</div>
+                            </div>
+                            <div class="p-price">
+                                <em>¥</em>
+                                <span>699</span>
+                            </div>
+                            <div class="p-button"><a href="#">立即抢购</a> </div>
+                            <i><img src="http://res.vmallres.com/pimages//tag/14/1446369334983.png" alt=""></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="pic-r">
+                <div class="channel-sale">
+                    <img src="http://res.vmallres.com/pimages//sale/2016-06/20160612175100190.jpg">
+                </div>
+                <div class="news">
+                    <div class="news-area">
+                        <div class="news-h clearfix">
+                            <ul>
+                                <li class="news-on"><a href="#">公告</a></li>
+                                <li><a href="#">评测</a></li>
+                            </ul>
+                        </div>
+                        <div class="news-down">
+                            <ul>
+                                <li><a href="#">【必看】Vmall购机秘籍</a></li>
+                                <li><a href="#">【荣耀畅玩5A】  6月17日10:08震撼首发 预约赢大奖</a></li>
+                                <li><a href="#">618荣耀年中大促来袭</a></li>
+                                <li><a href="#">摇一摇赢周杰伦演唱会门票</a></li>
+                                <li><a href="#">华为618 疯抢红六月</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="news-pic">
+                        <a href="#"><img src="http://res.vmallres.com/pimages//sale/2016-06/20160603092547924.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--过渡-->
+        <div class="tr-ad container">
+            <a href="#"><img src="http://res.vmallres.com/pimages//sale/2016-06/20160602205539116.jpg"></a>
+        </div>
+        <div class="follow"></div>
+        <!--底部-->
+        <footer>
+            <div class="container">
+
+            </div>
+        </footer>
+    </div>
+    <script src="demo.js" rel="stylesheet" type="text/javascript"></script>
+</body>
+</html>
